@@ -30,3 +30,24 @@ def Contactus(request):
 
 def Grievance(request):
     return render(request,'Grievance.html')
+
+def index(request):
+    return render(request,'index.html')
+
+def basic(request):
+    return render(request,'basic.html')
+
+def hostel(request):
+    return render(request,'hostel.html')
+
+def library(request):
+    return render(request,'library.html')
+
+def lab(request):
+    return render(request,'lab.html')
+
+def games(request):
+    return render(request,'games.html')
+
+def infrastructure(request):
+    return render(request,'infrastructure.html')
